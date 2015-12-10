@@ -72,7 +72,7 @@ header nav ul {
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  width:500;
+  text-align: center;
 
 }
 
@@ -89,12 +89,13 @@ header nav ul li a:hover {
 }
 
 header nav ul li#logo a {
-
   background-image:url('../images/logo.png');
 }
 
 header nav ul li#logo a:hover {
 
+  text-decoration:none;
+  background-repeat:no-repeat;
   background-image:url('../images/logo-hover.png');
 }
 
