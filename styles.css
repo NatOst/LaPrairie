@@ -69,9 +69,6 @@ header nav {
 }
 
 header nav ul {
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
   text-align: center;
 
 }
@@ -81,6 +78,8 @@ header nav ul li {
 }
 
 header nav ul li a {
+  text-decoration: none;
+  color: #d17f38;
 
 }
 
@@ -89,6 +88,7 @@ header nav ul li a:hover {
 }
 
 header nav ul li#logo a {
+  background-repeat:no-repeat;
   background-image:url('../images/logo.png');
 }
 
