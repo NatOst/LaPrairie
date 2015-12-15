@@ -6,9 +6,12 @@ public class TestSwap {
 		System.out.print("Entrez x: ");
 		int x = sc.nextInt();
 
-		System.out.print("Entrez y: ");
-		int y = sc.nextInt();
-
+		int y = 0 ;
+		while (y == 0)
+		{
+				System.out.print("Entrez y: ");
+				y = sc.nextInt();
+		}
 		System.out.println("Avant permutation: ");
 		System.out.println("x : " + x);
 		System.out.println("y : " + y);
@@ -22,3 +25,4 @@ public class TestSwap {
 		System.out.println("y : " + y);
 			}
 }
+
